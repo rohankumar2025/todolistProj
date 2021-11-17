@@ -1,0 +1,97 @@
+
+  
+  /* Bottom right text */
+.text-block {
+    position: absolute;
+    background-color: transparent;
+    color: black;
+    position: absolute;
+    /* top: 175px;
+    left: 150px; */
+    transform: translate(-50%, -50%);
+    text-align: center;
+    outline: 0px;
+    border: none;
+    box-shadow: none;
+    font-family: 'Mochiy Pop One', sans-serif;
+    resize: none;
+  }
+  
+
+.text {
+    position: absolute;
+    cursor: move;
+    margin: auto;
+    user-select: none;
+  } 
+
+.box {
+  position: absolute;
+  cursor: move;
+  color: black;
+  border-radius: 5px;
+  padding: 1em;
+  margin: auto;
+  user-select: none;
+  
+  top: 30%;
+  left: 41%;
+}
+
+.plusButton {
+  color: white;
+  background-color: #00cccc;
+  padding: 20px 28px;
+  border-radius: 40px;
+  font-size: 30px;
+  border: transparent;
+  position: absolute;
+  bottom: 0%;
+  right: 5%;
+}
+
+.x-button {
+  position: absolute;
+  color: black;
+  background-color: transparent;
+  padding: 0px 4px;
+  top: 20%;
+  left: 7%;
+  border: transparent;
+
+}
+
+.Header {
+  text-align: center;
+  background-color: black;
+  opacity: 100%;
+  padding: 1px 0px;
+}
+
+.HeaderText {
+  text-align: left;
+  color: white;
+  opacity: 100%;
+  font-family: 'Mochiy Pop One', sans-serif;
+  font-size: 4ch;
+}
+
+.increaseSizeButton {
+  position: absolute;
+  background-color: #16cc8f;
+  color: white;
+  border: transparent;
+  padding: 3px 8px;
+  left: 150px;
+  bottom: 50px;
+}
+
+.decreaseSizeButton {
+  position: absolute;
+  background-color: #f2755c;
+  color: white;
+  border: transparent;
+  padding: 3px 8px;
+  left: 130px;
+  bottom: 50px;
+}
